@@ -1,1 +1,1 @@
-// A .dxe interpreter, uses simple commands instead of being a compiled program
+// A .dxe interpreter, a .dxe uses simple commands instead of being a compiled program
