@@ -1,1 +1,1 @@
-// A .hat interpreter, as an executeable.
+// A .hat interpreter, .hat is an executable, complex, programming language file.
