@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title id="2title">Do-Soft | Do your soft job</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="The homepage for Do-Soft">
+        <meta name="keywords" content="DoSoft, OS">
+        <meta name="author" content="Boine">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="index.css" rel="stylesheet">
+        <script src="index.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="root">
+            <div class="fixed header">
+                <a onclick="openNav()" id="openNav">…</a>
+            </div>
+            <div class="header">
+                <h1 id="title" onclick="title2()">Do-Soft | Do your soft job</h1>
+            </div>
+            <div id="sidebar">
+                <button onclink="closeNav()">X</button>
+                <a href="#welcome">Welcome</a>
+            </div>
+            <div class="card-container">
+            <div class="card">
+                <h2>Welcome!<br></h2>
+                <p>Welcome to the Do-Soft website! Love it? Well, that's cool.<br>Do you want to make Do-Soft good enough? Please <a href="https://github.com/Boineica/do-soft" target="_blank_">contribute.</a></p>
+            </div>
+            <div class="card">
+                <h2>Prototype?</h2>
+                <p>Here are 2 prototypes here:</p>
+                <img src="prototype1.png" alt="1.Cursor 2.Window">
+            </div>
+            <div class="card">
+                <h2>Why is Do-Soft open-source?</h2>
+                <p>Who loves open source? The first reason is so you can make variants of it. But I know that...<br>Another reason is to let people contribute to it. That's why I choose open-source.</p>
+            </div>
+            <div class="card">
+                <h2>Why Do-Soft?</h2>
+                <p>Do-Soft is based on other OSes, like Windows. But it also focuses on its own. If you were during the early stage of do-soft, you'll be lucky to have some code lying around.</p>
+            </div>
+            </div>
+            <div class="card-container">
+                <noscript>
+                    <div class="card">
+                        <h2 style="background-color: var(--warning);">Warning!</h2>
+                        <p>We have detected that you have JavaScript disabled on your browser, please move to a modern browser or enable JavaScript.<br>😡🤬👿🤬😡👿</p>
+                    </div>
+                </noscript>
+            </div>
+            <picture style="display: none;">
+                <source srcset="img_smallflower.jpg" media="(max-width: 400px)">
+                <source srcset="img_flowers.jpg">
+                <img src="img_flowers.jpg" alt="Flowers">
+              </picture>
+            <div class="blog-container">
+                <div id="post1">Test post</div>
+                <div id="post2">Test post</div>
+                <div id="post3">Test post<br>This has 2 pharagraphs</div>
+                <div id="post4">Test post</div>
+                <div id="post5">Pharagraph 1<br>Pharagraph 2<br>Pharagraph 3</div>
+            </div>
+            <div class="did-ya-know">
+                <div class="what">
+                    <p class=question>How did it came here?</p>
+                    <p>I don't even know.<br>It came here for you. Luck. 😜</p>
+                </div>
+                <div class="what">
+                <p class="question">What is Do-Soft about?</p>
+                <p>Tablespoon Please.<br>Have you even read the description?<br>It reads "An open-source OS." Get it? 😰</p>
+                </div>
+                <div class="what">
+                <p class="question">Can i collaborate this freaking website?</p>
+                <p>Well, you sure can; you must have knowledge of C, Computers, and C comments 😅</p>
+                </div>
+            </div>
+            <div class="dark-footer"></div>
+        </div>
+    </body>
+</html>
