@@ -7,6 +7,8 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/Boineica/do-soft/total)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Boineica/do-soft)
 ![GitHub forks](https://img.shields.io/github/forks/Boineica/do-soft)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/Boineica/do-soft?display_name=latest%20version)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Boineica/do-soft?display_name=latest%20releases%20%28including%20pre-releases%29&include_prereleases)
 
 As an open source OS, I, Boineica. Present to you Do-Soft!
 
