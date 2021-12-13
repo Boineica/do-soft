@@ -4,7 +4,7 @@ You have gone here huh? Well, let's get started.
 
 ## Issues
 
-If you want to contribute, it is very important to go a bit techy. Since do-soft is an OS and not a website, others will just ignore you and say "Oh, thats well? This is an Operating system." 
+If you want to contribute, it is very important to go a bit techy. Since do-soft is an OS and not a website, others will just ... and say "<!--Put statement here-->" 
 
 ## Goals
 

@@ -1,1 +1,33 @@
-<#include game.lib>
+<#include game.lib.hat>
+//  Include the library game.lib.hat
+// Horrifying Amazing Text 🤣😜 and DXE are designed to be human-readable & computer-readable.
+
+start:
+    //* Reg stands for global variable, not included in game.lib *//
+    createReg("score")
+    createReg("bestScore")
+    play = input("", y,n)
+    setReg("score", 0)
+    setReg("bestScore", 0)
+
+    log("BALL RACE (for a moment)")
+    log("Do you mean to play this game (y/n) :" + play)
+
+    if (play == "n")
+        waittoclose = wait(3s)
+        log("Okay.")
+        
+        timer.activate(waittoclose)
+            log("3")
+            log("2")
+            log("1")
+        
+        if (waittoclose == done)
+            exit()
+    elseif (play == "y")
+        jump main
+    else
+        log("Incorrect, please type y or n.")
+
+main:
+    

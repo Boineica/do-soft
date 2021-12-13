@@ -1,0 +1,34 @@
+//*
+Required metadata can be set by .hat libraries
+The metadata and start area is interpreted to be required
+*//
+
+data(metadata):
+    name: required
+    version: required numeric
+    description: optional
+    category: required list(["Action", "Shooter", "Adventure", "Miscellaneous"])
+
+start(start):
+    // No things to be set here :)
+
+main(required):
+    // Main menu of games, no things to be set here :)
+
+game(required):
+    // Color interaction & other stuff are set here :)
+    function hexColor(hex){
+        colorHex = hexToColor(hex);
+        // ==| is interpreted as "is in"
+        if (hexColor() ==| variable){
+            hexToColor(hex) =| variable
+        }
+    }
+    function rgbColor(r, g, b){
+        r = numeric, red
+        g = numeric, green
+        b = numeric, blue
+
+        combineColors(r, g, b)
+    }
+// Add some more here, contributors.
